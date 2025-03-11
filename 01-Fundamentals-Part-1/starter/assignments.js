@@ -34,7 +34,7 @@ Think about which variables should be const variables (which values will never c
 Try to change one of the changed variables now, and observe what happens.
 
 
-*/
+
 const country = "Bolivia";
 const continent = "América";
 
@@ -43,3 +43,4 @@ let language = "Spanish";
 const isIsland = false;
 
 //isIsland = True;
+*/

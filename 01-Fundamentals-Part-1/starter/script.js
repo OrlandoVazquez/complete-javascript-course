@@ -41,7 +41,7 @@ year = 1997;
 console.log(typeof year);
 //en JS ... null es un object ... no tiene sentido pero se mantiene así por retrocompatibilidad.
 console.log(typeof null);
-*/
+
 //this is a block scope variable
 let age = 30;
 age = 31;
@@ -56,3 +56,39 @@ job = "teacher";
 //this is a global property
 lastName = "Vazquez";
 console.log(lastName);
+*/
+//Math Operators
+const now = 2025;
+const orlandoAge = now - 1989;
+const rachelAge = now - 2020;
+console.log(
+  "Orlando has " +
+    orlandoAge +
+    " years, and Rachel has " +
+    rachelAge +
+    " years."
+);
+
+console.log(orlandoAge * 2, rachelAge / 10, 2 ** 3);
+// 2 ** 3 significa dos a la potencia de 3 o sea 2*2*2
+const nombre = "Orlando";
+const apellido = "Vazquez";
+console.log(nombre + " " + apellido);
+
+//Assignment Operators
+let x = 10 + 5; //15
+x += 10; // x = x + 10
+x *= 4; // x = x * 4
+x++; // x+1
+x--; // x-1
+x--;
+console.log(x);
+
+//Comparision Operators
+
+console.log(orlandoAge > rachelAge); // <, >, >=, <=
+console.log(rachelAge >= 18);
+
+const isRachelFullAge = rachelAge >= 18;
+
+console.log(now - 1989 > now - 2020);

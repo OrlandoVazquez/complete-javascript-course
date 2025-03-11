@@ -1,3 +1,4 @@
+/*
 let country = "Bolivia";
 let continent = "América";
 let population = "12.564.085";
@@ -10,3 +11,4 @@ console.log(
     population +
     " habitantes."
 );
+*/

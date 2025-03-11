@@ -20,7 +20,7 @@ let job1 = "Coder";
 let job2 = "Programmer";
 
 console.log(myFirstJob);
-*/
+
 true;
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -41,3 +41,18 @@ year = 1997;
 console.log(typeof year);
 //en JS ... null es un object ... no tiene sentido pero se mantiene así por retrocompatibilidad.
 console.log(typeof null);
+*/
+//this is a block scope variable
+let age = 30;
+age = 31;
+
+const birthYear = 1989;
+//birthYear = 2005;
+//const job;
+//this is a function scope variable
+var job = "programmer";
+job = "teacher";
+
+//this is a global property
+lastName = "Vazquez";
+console.log(lastName);

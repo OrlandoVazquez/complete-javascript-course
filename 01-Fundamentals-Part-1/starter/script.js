@@ -56,7 +56,7 @@ job = "teacher";
 //this is a global property
 lastName = "Vazquez";
 console.log(lastName);
-*/
+
 //Math Operators
 const now = 2025;
 const orlandoAge = now - 1989;
@@ -90,5 +90,15 @@ console.log(orlandoAge > rachelAge); // <, >, >=, <=
 console.log(rachelAge >= 18);
 
 const isRachelFullAge = rachelAge >= 18;
-
+*/
+const now = 2025;
+const orlandoAge = now - 1989;
+const rachelAge = now - 1990;
 console.log(now - 1989 > now - 2020);
+
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
+
+const averageAge = orlandoAge + rachelAge / 2;
+console.log(orlandoAge, rachelAge, averageAge);

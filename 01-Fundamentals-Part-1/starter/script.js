@@ -103,3 +103,40 @@ console.log(x, y);
 const averageAge = orlandoAge + rachelAge / 2;
 console.log(orlandoAge, rachelAge, averageAge);
 */
+
+const firstName = "Orlando";
+const lastName = "Vazquez";
+const job = "Fullstack Developer";
+const birthYear = 1989;
+const currentYear = 2025;
+
+const orlando =
+  "I'm " +
+  firstName +
+  " " +
+  lastName +
+  ", a " +
+  (currentYear - birthYear) +
+  " years old " +
+  job +
+  "!";
+
+const orlandoNew = `I'm ${firstName}, a ${
+  currentYear - birthYear
+} years old ${job}!`;
+console.log(orlando);
+console.log(orlandoNew);
+console.log(`just a regular string...`);
+
+console.log(
+  "String with \n\
+  multiple \n\
+  lines"
+);
+
+console.log(`String
+  also
+  with 
+  multiple 
+  lines
+  `);

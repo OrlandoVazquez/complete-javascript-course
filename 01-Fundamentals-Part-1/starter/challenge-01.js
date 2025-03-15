@@ -1,3 +1,4 @@
+/*
 const markHeight = 1.88;
 const markWeight = 95;
 const johnHeight = 1.76;
@@ -12,3 +13,4 @@ console.log(johnBMI);
 const markHigherBMI = markBMI > johnBMI;
 
 console.log("is mark bigger that jhon ? " + markHigherBMI);
+*/
